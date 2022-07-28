@@ -1,0 +1,20 @@
+-- Table: public.activities
+
+-- DROP TABLE IF EXISTS public.activities;
+
+CREATE TABLE IF NOT EXISTS public.activities
+(
+    activity_id integer NOT NULL DEFAULT nextval('activities_activity_id_seq'::regclass),
+    name character varying COLLATE pg_catalog."default",
+    descripcion character varying COLLATE pg_catalog."default",
+    created time without time zone,
+    enabled boolean,
+    updated time without time zone,
+    archived boolean,
+    CONSTRAINT activities_pkey PRIMARY KEY (activity_id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.activities
+    OWNER to postgres;

@@ -6,3 +6,4 @@ pluginManagement {
 	}
 }
 rootProject.name = 'crmbackend'
+rootProject.name = 'ProyectoIntegrador-SISAAD'

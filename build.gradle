@@ -5,6 +5,7 @@ plugins {
 }
 
 group = 'edu.yavirac'
+group = 'yavirac'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
