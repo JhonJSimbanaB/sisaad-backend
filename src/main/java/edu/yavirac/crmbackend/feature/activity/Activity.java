@@ -22,4 +22,3 @@ public class Activity {
     private boolean enable;
 
 }
-//Tatiana Veronica
