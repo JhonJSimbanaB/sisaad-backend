@@ -1,4 +1,4 @@
-package edu.yavirac.crmbackend.feature.activity;
+package yavirac.ProyectoIntegradorSISAAD.feature.activity;
 
 import java.sql.Timestamp;
 

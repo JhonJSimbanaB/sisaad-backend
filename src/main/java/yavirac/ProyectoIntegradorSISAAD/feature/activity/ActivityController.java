@@ -1,4 +1,4 @@
-package edu.yavirac.crmbackend.feature.activity;
+package yavirac.ProyectoIntegradorSISAAD.feature.activity;
 
 import java.util.List;
 
@@ -43,7 +43,7 @@ public class ActivityController {
         activityService.deleteById(id);
     }
 
-    @GetMapping("/all")
+    @GetMapping("/findAll")
     public List<Activity> findAll(){
         return activityService.findAll();
     }
