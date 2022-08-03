@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/authority")
 @CrossOrigin({"*"})
 public class AuthorityController {
+    
     @Autowired
     AuthorityService authorityService;
 
