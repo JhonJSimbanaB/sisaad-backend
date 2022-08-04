@@ -32,4 +32,7 @@ public class ActivityService {
         return activityRepository.findAll();
     }
     
+    public List<Activity> findByName(String term){
+        return activityRepository.findByNameLikeIgnoreCase(term+"%");
+    }
 }

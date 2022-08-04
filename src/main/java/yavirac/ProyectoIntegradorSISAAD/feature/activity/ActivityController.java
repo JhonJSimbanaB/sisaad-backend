@@ -48,5 +48,9 @@ public class ActivityController {
         return activityService.findAll();
     }
     
+    @GetMapping("/findByName/{term}")
+    public List<Activity> findByName(@PathVariable String term){
+        return activityService.findByName(term);
+    }
     
 }
