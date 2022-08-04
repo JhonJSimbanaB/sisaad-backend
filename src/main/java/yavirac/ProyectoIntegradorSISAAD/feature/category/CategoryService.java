@@ -44,5 +44,4 @@ public class CategoryService {
     public List<Category> findByName(String term){
         return categoryRepository.findByNameLikeIgnoreCase(term+"%");
     }
-    
 }

@@ -13,12 +13,13 @@ import lombok.Data;
 public class Activity {
     
     @Id
-    @Column("activity_id")
+   
     private long activityId;
     private String name;
     private String category;
     private Timestamp created;
     private Timestamp updated;
     private boolean enable;
+    private Long categoryId;
 
 }

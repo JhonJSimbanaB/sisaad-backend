@@ -24,6 +24,7 @@ public class Category {
     private boolean enabled;
     private boolean archived;
     private Long activityId;
+   
 
     @MappedCollection(idColumn = "category_id")
     private Set<CategoryAuthority> authorities = new HashSet<>();
